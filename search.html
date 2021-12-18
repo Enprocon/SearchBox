@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            .nav_search{
+                height:425px;
+                width:1000px;
+                
+            }
+            .nav_search_make{
+                border:1px solid #337ab7 ;
+            }
+            .list{
+                list-style: none;
+                text-align: left;
+                margin-top: 30px;
+                width:243px;
+                /* width:300px; */
+                display: block;
+                max-height: 300px;
+                margin-left:-10px;
+                /* padding-right:100px; */
+                overflow-y: auto;
+                overflow-x: hidden;
+            }
+            ::-webkit-scrollbar-track {
+                background: #ffff;
+                }
+                ::-webkit-scrollbar {
+                    width: 10px;
+                }
+
+                    /* Track */
+            ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px #337ab7;
+            border-radius: 10px;
+            }
+            ::-webkit-scrollbar-thumb {
+                background: #337ab7;
+                border-radius: 10px;
+                }
+            .search_title{
+                margin:10px;
+                text-align: center;
+                background-color: #0000;
+                font-size:20px;
+                font-weight:bold;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#337ab7;height:37px;">
+            <a class="navbar-brand" href="#">Ironlist</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="container">
+                            <form class="form-inline" style="text-align:center;margin-top:0;">
+                                <input class="form-control" type="search" style="width:735px;" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" style="width:235px;" type="submit">Search</button>
+                            </form>
+                                                            <div class="row nav_search">
+                                                                
+                                                                <div class="col-lg-3 nav_search_make">
+                                                                    <h6 class="search_title">Make List</h6>
+                                                                    <form class="form-inline mt-lg-3 text-align:left">
+                                                                        <input class="form-control finput" type="search" placeholder="Search" aria-label="Search"
+                                                                            style="width:150px">
+                                                                        <button class="btn btn-outline-primary" type="submit"
+                                                                            style="font-size:14px; text-align:left;">Search</button>
+                                                            
+                                                                    </form>
+                                                                    
+                                                                    <ul class="list">
+                                                                        
+                                                                        <li class="py-2">
+                                                                            Caterpillar
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            John Deere
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Volvo
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Cnh industry
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            AGCO corporation
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            YTO Group Corporation
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Caterpillar
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            John Deere
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Volvo
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Cnh industry
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            AGCO corporation
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            YTO Group Corporation
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            
+                                                                <div class="col-lg-3 nav_search_make">
+                                                                    <h6 class="search_title">Model List</h6>
+                                                                    <form class="form-inline mt-lg-3 text-align:left">
+                                                                        <input class="form-control finput" type="search" placeholder="Search" aria-label="Search"
+                                                                            style="width:140px">
+                                                                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                                                                    </form>
+                                                                    <ul class="list">
+                                                                    
+                                                                        <li class="py-2">
+                                                                            Caterpillar
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            John Deere
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Volvo
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Cnh industry
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            AGCO corporation
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            YTO Group Corporation
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Caterpillar
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            John Deere
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Volvo
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Cnh industry
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            AGCO corporation
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            YTO Group Corporation
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-3 nav_search_make">
+                                                                    <h6 class="search_title">Vendor List</h6>
+                                                                    <form class="form-inline mt-lg-3 text-align:left">
+                                                                        <input class="form-control finput" type="search" placeholder="Search" aria-label="Search"
+                                                                            style="width:140px">
+                                                                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                                                                    </form>
+                                                                    <ul class="list">
+                                                                    
+                                                                        <li class="py-2">
+                                                                            Caterpillar
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            John Deere
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Volvo
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Cnh industry
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            AGCO corporation
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            YTO Group Corporation
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Caterpillar
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            John Deere
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Volvo
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            Cnh industry
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            AGCO corporation
+                                                                        </li>
+                                                                        <li class="py-2">
+                                                                            YTO Group Corporation
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-3 nav_search_make">
+                                                                    <h6 class="search_title">SourceSite List</h6>
+                                                                    <form class="form-inline mt-lg-3 text-align:left">
+                                                                        <input class="form-control finput" type="search" placeholder="Search" aria-label="Search"
+                                                                            style="width:140px">
+                                                                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                                                                    </form>
+                                                                <ul class="list">
+                                                                
+                                                                    <li class="py-2">
+                                                                        Caterpillar
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        John Deere
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        Volvo
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        Cnh industry
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        AGCO corporation
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        YTO Group Corporation
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        Caterpillar
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        John Deere
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        Volvo
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        Cnh industry
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        AGCO corporation
+                                                                    </li>
+                                                                    <li class="py-2">
+                                                                        YTO Group Corporation
+                                                                    </li>
+                                                                </ul>
+                                                                </div>
+                                                            </div>
+                                </div>
+                            <!-- <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a> -->
+                        </div>
+                    </li>
+                
+                </ul>
+            </div>
+        </nav>
+        <script>
+                                // $(docu   
+        </script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        </body>
+    </body>
+</html>
